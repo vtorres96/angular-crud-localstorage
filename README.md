@@ -2,7 +2,7 @@
 Project developed with AngularJS
 
 <h1 align="center" >  
-  <img src="/docs/screenshot.png" width="300"/>
+  <img src="/docs/screenshot.png" width="600"/>
 </h1>
 
 <p align="center">
