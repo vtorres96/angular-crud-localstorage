@@ -1,0 +1,14 @@
+<div class="card">
+  <div class="card-body">
+    <!-- FORM TO ADD TASKS -->
+    <form [formGroup]="taskForm" (submit)="addTask(newTitle, newDescription)">
+      <div class="form-group">
+        <input formControlName="title" #newTitle type="text" class="form-control" placeholder="Task Title">
+      </div>
+      <div class="form-group">
+        <textarea formControlName="description" #newDescription cols="30" rows="10" class="form-control" placeholder="Task Description"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block" [disabled]="taskForm.invalid">Send</button>
+    </form>
+  </div>
+</div>
